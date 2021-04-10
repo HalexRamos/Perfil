@@ -11,9 +11,9 @@ import { IoLogoWhatsapp } from 'react-icons/io';
 
 import { FaNodeJs } from 'react-icons/fa';
 
-// import { GrReactjs } from 'react-icons/gr';
+import { GrReactjs } from 'react-icons/gr';
 
-// import { SiTypescript } from 'react-icons/si';
+import { SiTypescript } from 'react-icons/si';
 
 import {
   Container,
@@ -37,18 +37,18 @@ const Page: React.FC = () => {
       <br />
       <Function>
         <h1>Full stack Developer</h1>
-        {/* <a href="https://www.typescriptlang.org/">
+        <a href="https://www.typescriptlang.org/">
           <SiTypescript size={30} />
-        </a> */}
-        {/* <a href="https://nodejs.org/en/">
+        </a>
+        <a href="https://nodejs.org/en/">
           <FaNodeJs size={30} />
-        </a> */}
-        {/* <a href="https://reactjs.org/">
+        </a>
+        <a href="https://reactjs.org/">
           <GrReactjs size={30} />
-        </a> */}
-        {/* <a href="https://reactnative.dev/">
+        </a>
+        <a href="https://reactnative.dev/">
           <GrReactjs size={30} />
-        </a> */}
+        </a>
       </Function>
       <SocialMedia>
         <div>
