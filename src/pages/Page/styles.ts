@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 380px;
-  height: 570px;
+  height: 600px;
   text-align: center;
   border-radius: 5px;
   overflow: hidden;
@@ -12,13 +12,32 @@ export const Container = styled.div`
 
 export const ProfileImage = styled.div`
   img {
-    height: 200px;
-    width: 200px;
-    padding: 7px;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
     background: #fff;
     border-radius: 50%;
     margin-bottom: 10px;
-    background: linear-gradient(100deg, #02c0ff, #fff);
+    background: #fff;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to bottom, #02c0ff, #fff);
+    animation: animated-gradient 2s linear infinite;
+  }
+
+  @keyframes animated-gradient {
+    25% {
+      background-position: left bottom;
+    }
+    50% {
+      background-position: right bottom;
+    }
+    75% {
+      background-position: right top;
+    }
+    100% {
+      background-position: left top;
+    }
   }
 `;
 
